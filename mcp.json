@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mind": {
+      "url": "https://www.m-i-n-d.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MIND_API_KEY}"
+      }
+    }
+  }
+}

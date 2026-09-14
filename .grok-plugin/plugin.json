@@ -1,0 +1,13 @@
+{
+  "name": "mind",
+  "version": "1.0.0",
+  "description": "MIND — persistent memory and knowledge graph for AI agents. Hosted MCP at www.m-i-n-d.ai/mcp plus the MIND session-discipline skill.",
+  "author": {
+    "name": "Astra AI",
+    "url": "https://www.m-i-n-d.ai"
+  },
+  "homepage": "https://www.m-i-n-d.ai",
+  "repository": "https://github.com/theastraway/mind-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["mind", "memory", "knowledge-graph", "agent-memory", "crm", "mcp"]
+}

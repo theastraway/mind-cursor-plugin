@@ -1,0 +1,33 @@
+{
+  "name": "mind",
+  "version": "1.0.0",
+  "description": "Connect Cursor and Grok Bot to MIND — the persistent memory and knowledge-graph layer for AI agents. Query and write memories, documents, the LIFE board, CRM, tasks, and 37 tools through MIND's hosted MCP server at www.m-i-n-d.ai/mcp.",
+  "author": {
+    "name": "Astra AI",
+    "email": "anthony@theastraway.com"
+  },
+  "homepage": "https://www.m-i-n-d.ai",
+  "repository": "https://github.com/theastraway/mind-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "mind",
+    "memory",
+    "knowledge-graph",
+    "agent-memory",
+    "crm",
+    "life",
+    "mcp"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "MIND_API_KEY": {
+        "type": "string",
+        "title": "MIND API key",
+        "description": "Create one at www.m-i-n-d.ai → Settings → Developer → API Keys. Starts with mind_. It signs every MCP request; revoke it from that same screen any time."
+      }
+    },
+    "required": ["MIND_API_KEY"]
+  }
+}
