@@ -1,0 +1,19 @@
+{
+  "name": "mind",
+  "displayName": "MIND",
+  "owner": {
+    "name": "Astra AI",
+    "email": "anthony@theastraway.com"
+  },
+  "metadata": {
+    "description": "MIND — persistent memory and knowledge graph for AI agents. Hosted MCP + session skill.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mind",
+      "source": ".",
+      "description": "MIND hosted MCP (37 tools) + the MIND session-discipline skill. Needs a MIND API key at install."
+    }
+  ]
+}
